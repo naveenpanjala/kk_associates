@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #f9f9f9;
 }
 
 .navbar {
@@ -81,16 +81,18 @@ body {
   margin: 10px;
 }
 
-.hero {
-  background-image: url("https://cdn.prod.website-files.com/64be86eaa29fa71f24b00685/64be86eaa29fa71f24b00ed3_613f03d6c0edc42e66cdcd32_A%2520Guide%2520to%2520Automating%2520Loan%2520Document%2520Data%2520Extraction%2520for%2520Lenders%2520Main%2520Image.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 90%;
-  margin: 0 auto;
-  padding: 350px; 
-  text-align: center;
-  opacity: 0.8;
 
+
+.hero {
+  display: flex;
+  justify-content: center; 
+  /* align-items: center;     */
+  height: 100vh; 
+}
+
+.hero-image {
+  max-width: 90%; 
+  height: auto;            
 }
 
 
@@ -119,7 +121,7 @@ body {
   padding: 20px;
   margin: 10px;
   width: 220px;
-  flex: 0 0 auto;
+  flex: 0 0  auto;
   transition: transform 0.3s;
 }
 
@@ -169,10 +171,11 @@ body {
 }
 
 .footer {
-  background-color: #94bbdc;
+  background-color: #07253f;
   color: white;
   text-align: center;
   padding: 20px 0;
+  margin: 10px;
 }
 
 .footer-content p {
