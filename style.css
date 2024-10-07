@@ -84,27 +84,15 @@ body {
 .hero {
   background-image: url("https://cdn.prod.website-files.com/64be86eaa29fa71f24b00685/64be86eaa29fa71f24b00ed3_613f03d6c0edc42e66cdcd32_A%2520Guide%2520to%2520Automating%2520Loan%2520Document%2520Data%2520Extraction%2520for%2520Lenders%2520Main%2520Image.jpeg");
   background-size: cover;
-  height: 100%;
-  width: 100%;
   background-position: center;
-  padding: 360px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 350px; 
   text-align: center;
-  opacity: 0.9;
+  opacity: 0.8;
+
 }
 
-.hero-btn {
-  margin-left: 55%;
-  background-color: #488ed4;
-  color: white;
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.hero-btn:hover {
-  background-color: #0056b3;
-}
 
 .card-section {
   padding: 50px;
