@@ -86,13 +86,32 @@ body {
 .hero {
   display: flex;
   justify-content: center; 
-  /* align-items: center;     */
   height: 100vh; 
 }
 
 .hero-image {
   max-width: 90%; 
   height: auto;            
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh; 
+  }
+
+  .hero-image {
+    max-width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 60vh; 
+  }
+
+  .hero-image {
+    max-width: 100%; 
+  }
 }
 
 
